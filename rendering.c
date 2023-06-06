@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "rendering.h"
 #include "map.h"
+#include "game.h"
 
 void render_game() {
     // Render the game based on the map

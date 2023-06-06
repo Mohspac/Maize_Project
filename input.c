@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <ncurses.h>
 
+void move_forward();
+void move_backward();
+void strafe_left();
+void strafe_right();
+
 void handle_input() {
     int key = getch();
 

@@ -2,7 +2,7 @@
 #include "game.h"
 
 int main() {
-    if (!game_init()) {
+    if (game_init() != 0) {
         printf("Failed to initialize the game.\n");
         return 1;
     }
